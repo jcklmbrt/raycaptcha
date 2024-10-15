@@ -205,7 +205,7 @@ function main()
 	d_slider.value = displacement.toString();
 
 	var aspect = canvas.width / canvas.height;
-	mat_projection = matrix_perspective(Math.PI / 2.0, aspect, 0.1, 100.0);
+	mat_projection = matrix_perspective(M_PI_2, aspect, 0.1, 100.0);
 
 	r_slider.oninput = function() {
 		rotation = parseFloat(r_slider.value);
